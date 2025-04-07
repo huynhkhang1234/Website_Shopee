@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng nhập GOOGLE</title>
+    <link rel="stylesheet" href="google.css">
+</head>
+
+<body>
+    <form>
+        <div class="form__padding">
+            <div class="form__padding-heading">
+                GOOGLE
+            </div>
+            <div class="form__padding-name">
+                Họ Và Tên <br>
+                <input type="text" class="form__padding-name-input" placeholder="Nhập họ và tên">
+            </div>
+            <div class="form__padding-name">
+                Password <br>
+                <input type="text" class="form__padding-name-input" placeholder="Nhập mật khẩu">
+            </div>
+
+            <fieldset class="filsdset__set ">
+                <legend class="form__padding-name">Giới tính</legend>
+                <label>
+                    <input type="radio" name="set">
+                    Nam
+                </label>
+
+                <label>
+                    <input type="radio" name="set">
+                    Nữ
+                </label>
+
+            </fieldset>
+            <div class="form__padding-name form__padding-top">
+                Ngày Sinh:
+
+            </div>
+            <input type="date" class="form__size">
+
+            
+
+            <div class="form__padding-name form__padding-top">
+                Nghề nghiệp:
+            </div>
+            <input list="job" class="form__size">
+            <datalist id="job">
+
+                <option> Sinh Viên</option>
+                <option> Học Sinh</option>
+                <option> Công Nhân</option>
+                <option> Giáo Viên</option>
+                <option> IT</option>
+                <option> Luật Sư </option>
+                <option> Bác Sĩ</option>
+                <option> Công An</option>
+
+            </datalist>
+
+            <fieldset class="filsdset__set ">
+                <legend class="form__padding-name">Sở Thích</legend>
+                <label> <input type="checkbox"> Thể thao</label>
+                <label> <input type="checkbox"> Du Lịch</label>
+                <label> <input type="checkbox"> Âm Nhạc</label>
+                <label> <input type="checkbox"> Thể Thao</label>
+            </fieldset>
+            <br>
+            <br>
+            <br>
+
+            <hr color="#e3e3e3">
+            <br>
+            <div class="form__padding-button">
+                <button class="form__padding-button-size" tabindex="3"> <a href="index.html">Trở về</a> </button>
+                <button class="form__padding-button-size" tabindex="3"> Đăng kí</button>
+                <button class="form__padding-button-size" tabindex="4">Nhập lại</button>
+
+            </div>
+
+        </div>
+
+
+
+
+    </form>
+</body>
+
+</html>

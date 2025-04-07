@@ -1,0 +1,148 @@
+
+*{
+    box-sizing: border-box;
+}
+
+.lopphu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #26292e;
+    display: flex;
+}
+
+form{
+    position: relative;
+   margin: auto;
+    width: 400px;
+    border: 1px solid yellowgreen;
+    
+    
+}
+.forn__padding{
+    text-align: center;
+    padding: 8px;
+}
+.Login{
+    margin-top: 15px;
+    font-size: 1.9rem;
+    color:#fff ;
+    padding: 10px 0;
+    background-color: #62615f;
+    border-radius: 3px;
+}
+
+.form__input{
+    width: 100%;
+    padding: 0;
+    border: 0;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    margin-top: 5px;
+
+}
+.form__input:hover{
+    border: 1px solid blueviolet;
+    background-color: rgb(240, 234, 234);
+}
+.form__name-pass{
+    text-align: left;
+    font-size: 1.2rem;
+    padding-top: 6px;
+    color: #fff;
+}
+.form__input{
+    padding: 9px 0;
+   margin-bottom: 8px;
+}
+.form__remember{
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.form__remember-name{
+    color: #fff;
+    font-size: 1.2rem;
+}
+.input__login{
+    width: 100%;
+  
+}
+.forgot__pass>a{
+    text-decoration: none;
+    color: red;
+    
+}
+.forgot__pass>a:hover{
+    color: rgb(226, 13, 13);
+}
+.input__login{
+    padding: 9px;
+    background-color: #ff3366;
+    margin-top: 20px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+.input__login:hover{
+   background-color: #d12752;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2px;
+}
+.size{
+    min-width: 150px;
+    height: 30px;
+    background-color: #3b62a3;
+    font-size: 1.1rem;
+    margin-top: 20px;
+    line-height: 28px;
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.size>a{
+    text-decoration: none;
+}
+.footer__icon-facc{
+    color: #fff;
+    margin-left: -10px;
+    margin-right: 10px;
+      width: 15px;
+ 
+}
+.footer__icon-gg{
+    color: #fff;
+    margin-left: -10px;
+    margin-right: 10px;
+}
+.forn-trove>a{
+    position: absolute;
+    top: -2px;
+    right: -2px;
+    font-size: 1.7rem;
+     color: #62615f;
+    
+}
+.forn-trove>a:hover{
+    color:#e2e3e7;
+}
+.faccbook size{
+    display: flex;
+    align-items: baseline;
+}
+.icon-with{
+    width: 25px;
+    background-color: #fff;
+}

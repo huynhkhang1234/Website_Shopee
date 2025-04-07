@@ -1,0 +1,95 @@
+body{
+    background-image: url(anhdangnhap/background-tết-2021.png);
+}
+ .madangnhap2 {
+     width: 500px;
+
+     border: 1px solid red;
+     margin: auto;
+     background-image: url(anhdangnhap/mau-background-tet-dep-full-hd-9.png);
+     border-radius: 6px;
+
+ }
+
+ header {
+     width: 100%;
+     height: 150px;
+ }
+
+ .name {
+     font-size: 2.2rem;
+     text-align: center;
+     border: 2px solid blueviolet;
+     padding: 20px;
+     background-color: #7FFFD4;
+     color: red;
+     font-family: Arial, Helvetica, sans-serif;
+     user-select: none;
+     border-radius: 10px;
+
+ }
+
+ .paddingimg {
+     width: 50%;
+     height: 200px;
+     /* background-color: #FFF8DC; */
+     background-color: red;
+     padding: 40px 0px;
+     margin-left: 133px;
+     margin-top: 40px;
+     position: relative;
+     border-radius: 10px;
+     
+ }
+
+ .paddingimg>img {
+     position: absolute;
+     left: 27px;
+     cursor: pointer;
+ }
+
+ .footer {
+     margin-top: 40px;
+     margin-bottom: 20px;
+ }
+
+ .footerheader {
+     display: flex;
+     justify-content: flex-end;
+
+ }
+
+ .trove:hover {
+     background-color: rgb(138, 43, 261, 0.8);
+
+ }
+
+ .dangki:hover {
+     background-color: rgb(138, 43, 261, 0.8);
+ }
+
+ .trangchu:hover {
+     background-color: rgb(138, 43, 261, 0.8);
+
+ }
+
+ .padding {
+     padding: 0px 10px;
+
+ }
+
+ .size {
+     font-size: 0.8rem;
+     color: #fff;
+     min-width: 95px;
+     border: 1px solid blueviolet;
+     line-height: 40px;
+     user-select: none;
+     cursor: pointer;
+     background-color: rgb(169, 105, 230);
+     border-radius: 5px  ;
+ }
+
+ .nuttrangchu {
+     outline: none;
+ }

@@ -1,0 +1,197 @@
+
+*{
+    box-sizing: border-box;
+}
+.tranginstagram{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: green;
+   
+}
+.tranginstagram__lopphu{
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    position: absolute;
+ 
+   
+
+}
+.tranginstagram__item-body{
+    width: 400px;
+    height: 500px;
+    background-color: #fff;
+    margin: auto;
+   position: relative;
+   
+
+}
+.tranginstagram__item-padding{
+   background-color: yellowgreen;
+    width: 100%;
+    position: absolute;
+    padding-left: 40px;
+    padding-right: 40px;
+    height: 100%;
+
+
+}
+
+.inputname{
+
+    display: block;
+    width: 100%;    
+    padding: 12px;
+    background-color: #ecebeb;
+   
+}
+.inputname:focus{
+
+    border: 1px solid #cccccc;
+}
+a>.tranginstagram__list-login{
+   width: 100%;
+   padding: 10px;
+   cursor: pointer;
+}
+a>.tranginstagram__list-login:hover{
+    background-color: rgba(178, 223, 252, 0.9);
+}
+.dangnhapcachkhac{
+    display: flex;
+}
+.tranginstagram__body-heading{
+    margin-top: 15px;
+    font-size: 3.2rem;
+    font-family:apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    text-align: center;
+    font-weight: 500;
+    color: #262626;
+    user-select: none;
+   
+}
+.tranginstagram__body-heading-icon>a{
+    position: absolute;
+    top: 2px;
+    right: 12px;
+    font-size: 2rem;
+    color: rgb(206, 203, 203);
+    
+}
+.icon-close{
+    width: 55px;
+    
+}
+
+.tranginstagram__body-heading-icon>a:hover{
+    color:#e2e3e7;
+}
+.tranginstagram__list{
+    margin-top: 50px;
+}
+.inputname{
+    margin-bottom: 6px;
+    outline: none;
+    border: none;
+    
+}
+.tranginstagram__list-login{
+    margin-top: 10px;
+    margin-bottom: 16px;
+    outline: none;
+    border: none;
+    background-color: #b2dffc;
+}
+/*                css facc google */
+
+.faccbookgoogle {
+    margin-top: 35px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    align-items: center;
+    font-size: 0.9rem;
+}
+
+.kichthuoc {
+    min-width: 150px;
+    height: 40px;
+    border: 1px solid yellowgreen;
+    background-color: salmon;
+  
+}
+
+.kichthuoc>a {
+    text-decoration: none;
+   
+}
+
+.kichthuoc,
+.background-color {
+    color: #fff;
+}
+
+.kichthuoc1 {
+    background-color: #3a5398;
+    display: flex;
+    align-items: center;
+    margin-right: 8px;
+
+}
+.kichthuoc2{
+    display: flex;
+    align-items: center;
+}
+
+.paddingicon{
+    margin: 0 4px;
+    
+} 
+.faccbookiconfaccbookgoogle{
+    padding-right: 8px;
+}
+/* csss cho phần google play và chlay */
+.quetqr__apps {
+   width: 100%;
+   margin-top: 40px;
+    display: flex;
+    
+}
+
+.header__qr-img {
+
+    width: 100%;
+   
+}
+
+.quetqr__dowloand {
+    max-height: 28px;
+    min-width: 90px;
+    background-color: rgb(221, 217, 217);
+    padding: 0 4px;
+    
+}
+.quetqr__link{
+
+    margin-right: 55px;
+    position: relative;
+}
+.quetqr__link::before{
+    content: "";
+    width: 2px;
+    height: 28px;
+    background-color: blueviolet;
+    position: absolute;
+    right: -30px;
+ 
+}
+.size{
+    width: 19px;
+}
+
+
+
+
